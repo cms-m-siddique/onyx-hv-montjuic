@@ -81,7 +81,7 @@ nav ul a:hover{opacity:1;color:var(--gold)}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 @media(max-width:968px){.services-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.services-grid{grid-template-columns:1fr}}
-.service-card{background:var(--onyx2);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius);padding:36px 28px;transition:all .4s ease;transform-style:preserve-3d}
+.service-card{background:rgba(255,255,255,.045);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.09);border-radius:var(--radius);padding:36px 28px;transition:all .4s ease;transform-style:preserve-3d}
 .service-card:hover{border-color:rgba(212,175,55,.3);transform:translateY(-6px)}
 .service-icon{width:56px;height:56px;border-radius:14px;background:rgba(212,175,55,.1);display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin-bottom:20px}
 .service-card h3{font-size:1.2rem;margin-bottom:12px}
@@ -98,7 +98,7 @@ nav ul a:hover{opacity:1;color:var(--gold)}
 /* Tilt Cards */
 .tilt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;perspective:1000px}
 @media(max-width:968px){.tilt-grid{grid-template-columns:1fr}}
-.tilt-card{background:var(--onyx2);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius);padding:40px 32px;transform-style:preserve-3d;transition:transform .3s ease;position:relative;overflow:hidden}
+.tilt-card{background:rgba(255,255,255,.05);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.09);border-radius:var(--radius);padding:40px 32px;transform-style:preserve-3d;transition:transform .3s ease;position:relative;overflow:hidden}
 .tilt-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,transparent,rgba(212,175,55,.05));opacity:0;transition:opacity .3s}
 .tilt-card:hover::before{opacity:1}
 .tilt-card .stars{color:var(--gold);margin-bottom:16px;font-size:1.1rem}
@@ -110,7 +110,7 @@ nav ul a:hover{opacity:1;color:var(--gold)}
 
 /* CTA */
 .cta-section{text-align:center}
-.cta-box{background:linear-gradient(135deg,var(--onyx2),rgba(212,175,55,.05));border:1px solid rgba(212,175,55,.15);border-radius:24px;padding:60px 40px;max-width:700px;margin:0 auto}
+.cta-box{background:rgba(255,255,255,.05);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(212,175,55,.22);border-radius:24px;padding:60px 40px;max-width:700px;margin:0 auto}
 .cta-box h2{font-size:2.2rem;margin-bottom:16px}
 .cta-box p{color:var(--muted);margin-bottom:32px}
 .whatsapp-btn{background:#25D366;color:#fff;padding:18px 44px;border-radius:50px;font-weight:600;font-size:1.1rem;display:inline-flex;align-items:center;gap:12px;transition:all .3s}
